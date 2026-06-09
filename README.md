@@ -2,25 +2,6 @@
 
 A high-performance Rubik's Cube solver implemented in C++ that models the cube in three distinct representations and solves it using multiple search algorithms, culminating in Korf's IDA* algorithm with a Corner Pattern Database heuristic.
 
----
-
-<!-- ## 📌 Table of Contents
-
-- [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Cube Representations](#cube-representations)
-- [Solving Algorithms](#solving-algorithms)
-- [Pattern Database & Heuristics](#pattern-database--heuristics)
-- [Key Concepts](#key-concepts)
-- [Build & Run](#build--run)
-- [OOP Design](#oop-design)
-- [Key Learnings](#key-learnings)
-
---- -->
-
-## Overview
-
-A Rubik's Cube has **43,252,003,274,489,856,000** possible states. Despite this, any configuration can be solved in **20 moves or fewer** (God's Number). This project:
 
 - Models the cube in **3 different representations** (3D array, 1D array, Bitboard)
 - Solves it using **4 algorithms**: DFS, BFS, IDDFS, and IDA*
@@ -238,21 +219,10 @@ The project demonstrates several core C++ OOP principles:
 - C++ template metaprogramming for generic, reusable solver components -->
 
 
-
-
-
 ## References
 
 - **Korf, R. E. (1997)** — *Finding Optimal Solutions to Rubik's Cube Using Pattern Databases*
-  [https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf](https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
+  [Korf's Research Paper](https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
 
 - **Rubik's Cube Notation Simulator** — For visualizing and testing move notations
-  [https://ruwix.com/the-rubiks-cube/notation/advanced/](https://ruwix.com/the-rubiks-cube/notation/advanced/)
-
-
-
-  ## References
-
-- **Korf, R. E. (1997)** — [Finding Optimal Solutions to Rubik's Cube Using Pattern Databases](https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
-
-- **Rubik's Cube Notation** — [Interactive move notation simulator](https://ruwix.com/the-rubiks-cube/notation/advanced/)
+  [Interactive move notation simulator](https://ruwix.com/the-rubiks-cube/notation/advanced/)
