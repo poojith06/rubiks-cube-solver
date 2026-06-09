@@ -107,7 +107,8 @@ Stickers are indexed **clockwise** around each face (0→7), enabling a face rot
 
 ## Solving Algorithms
 
-<!-- All solvers are **generic template classes** compatible with any of the three cube representations plus their corresponding hash function. -->
+All solvers are **generic template classes** compatible with any of the three cube representations.
+ <!-- plus their corresponding hash function. -->
 
 ### DFS Solver
 Depth-limited Depth-First Search with a configurable max depth (default: 20, since all cubes are solvable in ≤ 20 moves). The visited map is intentionally omitted to avoid the pathological case where a state reached via a long path blocks a shorter solution path.
@@ -235,3 +236,23 @@ The project demonstrates several core C++ OOP principles:
 - Permutation indexing as a technique to achieve O(1) lookup across 88 million states
 - Bit manipulation for compact storage (Nibble Array, Bitboard representation)
 - C++ template metaprogramming for generic, reusable solver components -->
+
+
+
+
+
+## References
+
+- **Korf, R. E. (1997)** — *Finding Optimal Solutions to Rubik's Cube Using Pattern Databases*
+  [https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf](https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
+
+- **Rubik's Cube Notation Simulator** — For visualizing and testing move notations
+  [https://ruwix.com/the-rubiks-cube/notation/advanced/](https://ruwix.com/the-rubiks-cube/notation/advanced/)
+
+
+
+  ## References
+
+- **Korf, R. E. (1997)** — [Finding Optimal Solutions to Rubik's Cube Using Pattern Databases](https://www.cs.princeton.edu/courses/archive/fall06/cos402/papers/korfrubik.pdf)
+
+- **Rubik's Cube Notation** — [Interactive move notation simulator](https://ruwix.com/the-rubiks-cube/notation/advanced/)
